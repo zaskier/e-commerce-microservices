@@ -45,6 +45,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the app using Docker
+
+```bash
+# development
+$ add ".env" files for services
+
+$ docker-compose up --build -V
+```
+
 ## Test
 
 ```bash
